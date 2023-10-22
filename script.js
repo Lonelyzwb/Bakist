@@ -223,10 +223,10 @@ const startLogoutTimer = () => {
 let currentAcc, timer;
 
 //伪登录
-currentAcc = account1;
-updateUI(currentAcc);
-if (timer) clearInterval(timer);
-timer = startLogoutTimer();
+// currentAcc = account1;
+// updateUI(currentAcc);
+// if (timer) clearInterval(timer);
+// timer = startLogoutTimer();
 
 //登录
 btnLogin.addEventListener('click', e => {
